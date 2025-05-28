@@ -17,7 +17,7 @@ class CalculatorTest {
 	@Test
 	void testAddIntInt() {
 		assertEquals(10, calc.add(3, 7));
-	}
+	} // 두 정수를 매개변수로 받아 덧셈을 수행하고 반환
 
 	@Test
 	void testAddStringString() {
